@@ -1,0 +1,176 @@
+*{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.navBg{
+    background: rgb(34, 31, 31) !important;
+    transition: all 0.5s ease;
+    /*background: rgb(50, 200, 241) !important;*/
+}
+.navBgTrans{
+    background: transparent;
+    transition: all 0.5s ease;
+}
+.navBrand{
+    font-family:  "Roboto Black";
+    font-weight: 900;
+    font-size: 24px;
+    color: white !important;
+}
+.navItem{
+    font-family: Ubuntu, sans-serif;
+    font-weight: 600 !important;
+    font-size: 17px;
+    color: #ffffff !important;
+    transition: all 0.3s ease;
+}
+
+.bannerBg{
+    /*margin-top: 62px;*/
+    /*background-image:linear-gradient(rgba(62, 194, 246, 0.43),rgba(62, 194, 246, 0.43)), url("../images/Homebanner.jpg");*/
+    background-image:linear-gradient(rgba(9, 9, 9, 0.6),rgba(9, 9, 9, 0.6)), url("../images/Homebanner.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 50% 100%, 0% 70%);
+}
+.homeTitle{
+    font-size: 40px;
+    text-shadow: 1px 1px 5px #3e3d3d;
+}
+.homeSub{
+    font-size: 20px;
+    text-shadow: 1px 1px 5px #3e3d3d;
+
+}
+.homeBtn{
+    transition: all 0.3s ease;
+    background: dodgerblue !important;
+    border: 2px solid dodgerblue;
+}
+.homeBtn:hover{
+  background: transparent !important;
+    text-shadow: 1px 1px 5px #3e3d3d;
+    border: 2px solid dodgerblue;
+
+}
+.homeBtn:focus{
+}
+.generaLTopSpace{
+    padding-top: 80px !important;
+
+}
+.AboutConfig div{
+    max-width: 850px!important;
+    overflow: hidden;
+}
+
+
+.serviceImg{
+    width: 65px;
+}
+.serviceContainer{
+    background: rgba(128, 128, 128, 0.21);
+}
+.serviceContainer h5{
+    font-family: Raleway;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+.slick-slider{
+    overflow: hidden;
+}
+.slick-dots li {margin:25px 4px !important;}
+.projectCard{
+    background: rgba(224, 223, 223, 0.57);
+    cursor: pointer;
+    position: relative;
+    overflow-y: hidden !important;
+
+}
+.projectCard h5{
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.sectionTitle{
+    height: 35px;
+    margin-bottom: 0.5rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 2px;
+}
+.sectionTitle:after{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 130px;
+    background: orangered;
+    top: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.sectionTitle:before{
+    content: '';
+    position: absolute;
+    height: 8px;
+    width: 20px;
+    background: white;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+}
+.projectCard h5{
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+.sectionTitleGray{
+    height: 35px;
+    margin-bottom: 0.5rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 2px;
+}
+.sectionTitleGray:after{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 130px;
+    background: orangered;
+    top: 28px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.sectionTitleGray:before{
+    content: '';
+    position: absolute;
+    height: 8px;
+    width: 20px;
+    background: rgb(233, 232, 232);;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+}
+.clientLogo{
+    width: 70px!important;
+}
+.footerBg{
+    background: rgb(34, 31, 31) !important;
+}
